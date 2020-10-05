@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Привет, мир!</string>
+    <string name="my_name_is">Меня зовут</string>
+    <string name="hi">Привет</string>
+    <string name="hello_username">Привет, %1$s!</string>
+    <string name="activity_name_fire">Fire</string>
+</resources>
