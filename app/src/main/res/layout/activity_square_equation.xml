@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SquareEquationActivity"
+    android:orientation="vertical"
+    >
+
+   <GridLayout
+       android:layout_marginTop="30dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       >
+       <TextView android:text="A"/>
+       <EditText
+           android:id="@+id/input_a_var"
+           android:width="100dp"
+           android:inputType="numberDecimal"
+           />
+       <TextView android:text="B"/>
+       <EditText
+           android:id="@+id/input_b_var"
+           android:width="100dp"
+           android:inputType="numberDecimal"
+           />
+       <TextView android:text="C"/>
+       <EditText
+           android:id="@+id/input_c_var"
+           android:width="100dp"
+           android:inputType="numberDecimal"
+           />
+   </GridLayout>
+    <Button
+        android:id="@+id/calculate_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"/>
+</LinearLayout>

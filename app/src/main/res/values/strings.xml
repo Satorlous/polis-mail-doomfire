@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name" translatable="false">Lab1</string>
     <string name="hello_world">Hello, World!</string>
-    <string name="activity_name_hello_world" translatable="false">Hello World</string>
-    <string name="activity_name_hello_user" translatable="false">Hello User</string>
+    <string name="activity_name_hello_world">Hello World</string>
+    <string name="activity_name_hello_user">Hello User</string>
     <string name="my_name_is">My name is</string>
     <string name="hi">Hi</string>
     <string name="hello_username">Hello, %1$s!</string>
     <string name="activity_name_fire">Fire</string>
+    <string name="activity_name_equation">Square Equation</string>
+    <string name="calculate">Calculate</string>
 </resources>

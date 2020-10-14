@@ -61,7 +61,7 @@ class FireView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
 
     private val random = Random()
 
-    private val fireWidth: Int = 250
+    private val fireWidth: Int = 300
     private val fireHeight: Int by lazy {
         val aspectRatio = width.toFloat() / height
         (fireWidth / aspectRatio).toInt()

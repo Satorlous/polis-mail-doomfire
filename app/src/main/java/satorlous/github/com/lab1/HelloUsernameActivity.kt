@@ -8,6 +8,8 @@ import android.view.View.OnClickListener
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
+import android.view.Gravity
 
 class HelloUsernameActivity : AppCompatActivity(), OnClickListener  {
 
@@ -38,7 +40,11 @@ class HelloUsernameActivity : AppCompatActivity(), OnClickListener  {
     {
         val name = nameEditText.text.toString()
         val message = getString(R.string.hello_username, name)
-        messageText.text = message
-        messageText.visibility = View.VISIBLE
+        val toast = Toast.makeText(this, message, Toast.LENGTH_SHORT)
+        toast.setGravity(Gravity.CENTER, 0,0)
+        toast.show()
+
+        //messageText.text = message
+        //messageText.visibility = View.VISIBLE
     }
 }

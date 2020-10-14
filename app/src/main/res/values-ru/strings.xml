@@ -2,7 +2,11 @@
 <resources>
     <string name="hello_world">Привет, мир!</string>
     <string name="my_name_is">Меня зовут</string>
-    <string name="hi">Привет</string>
-    <string name="hello_username">Привет, %1$s!</string>
-    <string name="activity_name_fire">Fire</string>
+    <string name="hi">Добрый день</string>
+    <string name="hello_username">Добрый день, %1$s!</string>
+    <string name="activity_name_fire">Огонь</string>
+    <string name="activity_name_equation">Квадратное уравнение</string>
+    <string name="activity_name_hello_world" translatable="false">Привет, мир!</string>
+    <string name="activity_name_hello_user" translatable="false">Привет, юзер</string>
+    <string name="calculate">Вычислить</string>
 </resources>

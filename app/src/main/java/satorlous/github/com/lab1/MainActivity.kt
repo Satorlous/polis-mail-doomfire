@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var  helloWorldBtn : Button;
     private lateinit var  helloUserBtn : Button;
     private lateinit var  fireBtn : Button;
+    private lateinit var  squareEqBtn : Button;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,10 +20,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         helloWorldBtn = findViewById(R.id.btn_hello_world)
         helloUserBtn = findViewById(R.id.btn_hello_user)
         fireBtn = findViewById(R.id.btn_fire)
+        squareEqBtn = findViewById(R.id.btn_square_equation)
 
         helloUserBtn.setOnClickListener(this)
         helloWorldBtn.setOnClickListener(this)
         fireBtn.setOnClickListener(this)
+        squareEqBtn.setOnClickListener(this)
     }
 
 
@@ -32,6 +35,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn_hello_world -> onClickHelloWorldBtn()
             R.id.btn_hello_user -> onClickHelloUserBtn()
             R.id.btn_fire -> onClickFireBtn()
+            R.id.btn_square_equation -> onClickSquareEqBtn()
         }
     }
 
@@ -45,5 +49,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun onClickFireBtn() {
         startActivity(Intent(this, FireActivity::class.java))
+    }
+
+    private fun onClickSquareEqBtn() {
+        startActivity(Intent(this, SquareEquationActivity::class.java))
     }
 }

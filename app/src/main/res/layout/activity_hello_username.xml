@@ -38,5 +38,4 @@
         android:visibility="invisible"
         android:textColor="@color/colorPrimary"
         />
-
 </LinearLayout>
